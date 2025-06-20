@@ -1,0 +1,39 @@
+.library-root {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 32px 0;
+}
+.library-title {
+  margin-bottom: 32px;
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.library-list {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.library-empty {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  margin-top: 48px;
+  text-align: center;
+  background: rgba(255,255,255,0.04);
+  border-radius: 18px;
+  padding: 32px 0;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 12px 0 rgba(30,185,84,0.08);
+}
+@media (max-width: 600px) {
+  .library-list {
+    max-width: 100vw;
+    padding: 0 2vw;
+  }
+} 
